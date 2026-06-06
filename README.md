@@ -5,7 +5,7 @@ This project analyzes 239,677 real gun violence incidents from the Gun Violence 
 - **Classify** incidents into harm severity tiers (low, medium, high, mass casualty) based on fatality and injury counts to enable structured analysis across incident types.
 - **Identify** year-over-year and seasonal trends in incident volume and average severity across the full 2013–2018 period.
 - **Determine** which states and regions show the highest incident concentration and the highest average severity, and whether high-severity incidents cluster geographically.
-- **Parse** and categorize incident characteristics to identify the most common incident types and their relationship to severity outcomes.
+- **Parse and categorize** incident characteristics to identify the most common incident types and their relationship to severity outcomes.
 - **Identify** combinations of incident type, geography, and time most associated with mass-casualty escalation.
 ## 📊 Data Source & Scope
 - **Source**: [Gun Violence Data via Kaggle](https://www.kaggle.com/datasets/jameslko/gun-violence-data) - 239,677 real incidents recorded across the United States, 2013–2018.
