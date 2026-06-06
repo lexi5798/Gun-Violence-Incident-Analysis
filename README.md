@@ -8,7 +8,7 @@ This project analyzes 239,677 real gun violence incidents from the Gun Violence 
 - Parse and categorize incident characteristics to identify the most common incident types and their relationship to severity outcomes.
 - **Identify** combinations of incident type, geography, and time most associated with mass-casualty escalation.
 ## 📊 Data Source & Scope
-- **Source**: Gun Violence Archive (GVA) via Kaggle — 239,677 real incidents recorded across the United States, 2013–2018.
+- **Source**: Gun Violence Archive (GVA) via Kaggle - 239,677 real incidents recorded across the United States, 2013–2018.
 - **Data Quality**: Participant-level fields (participant_age, participant_gender, participant_relationship) were excluded due to 41–93% null rates and pipe-delimited encoding with no available validation source. All analysis operates on incident-level fields with complete or near-complete coverage.
 - **Scope**: Incident-level analysis only. No participant-level disaggregation. No data outside the 2013–2018 date range.
 - **Documentation**: Query logic and severity classification methodology are documented inline and in this README to support reproducibility and peer review.
