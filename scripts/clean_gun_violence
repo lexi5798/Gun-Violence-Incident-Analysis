@@ -15,6 +15,7 @@ Script Purpose:
 
 -- Removing nulls and keeping only complete data columns 
 -- Dropping table if it exists
+
 DROP TABLE IF EXISTS clean_gun_violence;
 GO 
 SELECT 
