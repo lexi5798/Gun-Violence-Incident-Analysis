@@ -1,0 +1,42 @@
+/*
+====================================================================================
+DDL Script: clean_gun_violence
+====================================================================================
+Script Purpose:
+  This script creates a new table of gun violence data, dropping existing tables
+  if they already exist. It removes unnecessary columns and gets rid of NULL values
+  in incident_date, n_killed, n_injured, and incident_characteristics. Changes
+  date to incident_date and state to incident_state to avoid reserved SQL words
+  and keep consistency. 
+  Run this script to create the cleaned 'clean_gun_violence' table from the raw
+  'dbo.gunviolence' source data.
+====================================================================================
+*/
+
+-- Removing nulls and keeping only complete data columns 
+-- Dropping table if it exists
+DROP TABLE IF EXISTS clean_gun_violence;
+GO 
+SELECT 
+    incident_id,
+    date AS incident_date,
+    n_killed,
+    n_injured,
+    incident_characteristics,
+    state AS incident_state,
+    city_or_county,
+    congressional_district,
+    latitude,
+    longitude    
+INTO clean_gun_violence
+FROM dbo.gunviolence
+WHERE date IS NOT NULL
+    AND state IS NOT NULL
+    AND n_killed IS NOT NULL
+    AND n_injured IS NOT NULL
+    AND incident_characteristics IS NOT NULL;
+
+-- Check table 
+Select
+* 
+FROM clean_gun_violence
