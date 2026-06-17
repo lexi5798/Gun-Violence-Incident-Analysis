@@ -16,7 +16,7 @@ SELECT
     COUNT(incident_id) AS incident_total
 FROM clean_gun_violence;
 
--- Incidents tht resulted in death 
+-- Incidents that resulted in death 
 SELECT 
     COUNT(incident_id) AS incident_total
 FROM clean_gun_violence
