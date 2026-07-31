@@ -1,12 +1,12 @@
 /*
 ====================================================================================
-Analysis Script: Gun Violence Incident Analysis
+Analysis Script: Basic Analysis
 ====================================================================================
 Script Purpose:
-  This script performs exploratory analysis on the cleaned gun violence dataset.
-  Queries cover incident totals, casualty counts, mass shooting identification,
-  and incident distribution by state.
-  Run this script after executing clean_gun_violence.sql.
+  This script performs basic exploratory analysis on the cleaned gun violence 
+  dataset. Queries cover incident totals, casualty counts, mass shooting 
+  identification, and incident distribution by state.
+  Run this script after executing ddl_clean_gun_violence.sql.
 ====================================================================================
 */
 
