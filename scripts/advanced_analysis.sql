@@ -25,7 +25,7 @@ CASE WHEN n_killed = 0 AND n_injured <= 1 THEN 'Low'
 END AS severity_level
 FROM clean_gun_violence;
 
--- Total incident, killed, and injured for each month of the collected data years
+-- Total incidents, killed, and injured for each month of the collected data years
 SELECT 
     YEAR(incident_date) AS incident_year,
     MONTH(incident_date) AS incident_month,
