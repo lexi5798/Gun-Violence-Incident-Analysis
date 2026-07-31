@@ -10,7 +10,6 @@ Script Purpose:
 ====================================================================================
 */
 
--- Basic analysis 
 -- Incident total 
 SELECT 
     COUNT(incident_id) AS incident_total
