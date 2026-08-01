@@ -40,3 +40,5 @@ This project analyzes 239,677 real gun violence incidents from the Gun Violence 
 - **Assault weapon involvement** was associated with 16 Mass Casualty incidents, consistent with their role in high-fatality events.
 ## 📊 Dashboard
 [View Gun Violence Incident Analysis 2013-2018 Dashboard](https://public.tableau.com/shared/8BF4MKT64?:display_count=n&:origin=viz_share_link)
+<img width="1679" height="2489" alt="Gun Violence Incident Analysis 2013-2018" src="https://github.com/user-attachments/assets/ebc81ae6-93da-4cbf-b523-e211b340a521" />
+
