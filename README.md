@@ -38,3 +38,5 @@ This project analyzes 239,677 real gun violence incidents from the Gun Violence 
 - **Child Involved Incidents** produced 84 Mass Casualty outcomes - a disproportionately high escalation rate relative to total volume.
 - **Spree Shootings** had a ~10% Mass Casualty rate (40 out of 398 total), the highest escalation rate of any incident type.
 - **Assault weapon involvement** was associated with 16 Mass Casualty incidents, consistent with their role in high-fatality events.
+## 📊 Dashboard
+[View Gun Violence Incident Analysis 2013-2018 Dashboard](https://public.tableau.com/shared/8BF4MKT64?:display_count=n&:origin=viz_share_link)
